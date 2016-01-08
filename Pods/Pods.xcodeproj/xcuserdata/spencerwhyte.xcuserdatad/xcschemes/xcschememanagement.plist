@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MicrowaveSocialite-CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MicrowaveSocialite-VLBCameraView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MicrowaveSocialite-VLBFoundation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MicrowaveSocialite.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>53C43C21DA2D44FFBEE7E426</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EEA88C160E6481D942F110C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E6B866274634E92BECC6728</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4A14F9CE43B4F7CB538D5EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

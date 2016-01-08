@@ -1,0 +1,20 @@
+PODS:
+  - CocoaLumberjack (1.6.2)
+  - VLBCameraView (2.0):
+    - CocoaLumberjack (= 1.6.2)
+    - VLBFoundation
+  - VLBFoundation (1.0)
+
+DEPENDENCIES:
+  - VLBCameraView (from `https://github.com/qnoid/VLBCameraView.git`)
+
+EXTERNAL SOURCES:
+  VLBCameraView:
+    :git: https://github.com/qnoid/VLBCameraView.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 0a08f3092acaab5f92c139e1186aa255a1e39446
+  VLBCameraView: 5749f4cd711c2f1a19cbd08019d724bf74d98660
+  VLBFoundation: d5ddef89836c735841390706e136fbbd14a04387
+
+COCOAPODS: 0.33.1

@@ -7,21 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80F544B82D62452780497B8E /* libPods-MicrowaveSocialite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E504D45984E4830A666EB24 /* libPods-MicrowaveSocialite.a */; };
+		F31086691949FB0D00A6F304 /* FFTView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F310865E1949FB0D00A6F304 /* FFTView.mm */; };
+		F310866B1949FB0D00A6F304 /* AudioController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31086621949FB0D00A6F304 /* AudioController.mm */; };
+		F310866C1949FB0D00A6F304 /* BufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086641949FB0D00A6F304 /* BufferManager.cpp */; };
+		F310866D1949FB0D00A6F304 /* FFTHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086661949FB0D00A6F304 /* FFTHelper.cpp */; };
+		F310866E1949FB0D00A6F304 /* DCRejectionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086681949FB0D00A6F304 /* DCRejectionFilter.cpp */; };
+		F31086781949FB3C00A6F304 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086721949FB3C00A6F304 /* CADebugMacros.cpp */; };
+		F31086791949FB3C00A6F304 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086741949FB3C00A6F304 /* CAXException.cpp */; };
+		F310867A1949FB3C00A6F304 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31086771949FB3C00A6F304 /* CAStreamBasicDescription.cpp */; };
+		F310867C1949FB9A00A6F304 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310867B1949FB9A00A6F304 /* AudioToolbox.framework */; };
+		F310867E1949FBA200A6F304 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310867D1949FBA200A6F304 /* AVFoundation.framework */; };
+		F31086801949FBA800A6F304 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310867F1949FBA800A6F304 /* OpenGLES.framework */; };
+		F31086821949FBAE00A6F304 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31086811949FBAE00A6F304 /* Accelerate.framework */; };
+		F3108684194BF5B800A6F304 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3108683194BF5B800A6F304 /* Accounts.framework */; };
+		F3108686194BF5EC00A6F304 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3108685194BF5EC00A6F304 /* QuartzCore.framework */; };
+		F3466077195E6EE3009B03BC /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3466076195E6EE3009B03BC /* SettingsTableViewController.m */; };
+		F3466080195E789C009B03BC /* AlphaMicrowave.png in Resources */ = {isa = PBXBuildFile; fileRef = F346607E195E789C009B03BC /* AlphaMicrowave.png */; };
+		F3466081195E789C009B03BC /* AlphaMicrowave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F346607F195E789C009B03BC /* AlphaMicrowave@2x.png */; };
+		F346609D1965C13B009B03BC /* Launch~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F34660981965C13B009B03BC /* Launch~ipad.png */; };
+		F346609E1965C13B009B03BC /* Launch-586h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F34660991965C13B009B03BC /* Launch-586h@2x.png */; };
+		F346609F1965C13B009B03BC /* Launch~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = F346609A1965C13B009B03BC /* Launch~iphone.png */; };
+		F34660A01965C13B009B03BC /* Launch@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F346609B1965C13B009B03BC /* Launch@2x~ipad.png */; };
+		F34660A11965C13B009B03BC /* Launch@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = F346609C1965C13B009B03BC /* Launch@2x~iphone.png */; };
+		F3A2D1CB1969F95D00A0BAC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A2D1CA1969F95D00A0BAC2 /* Default-568h@2x.png */; };
+		F3A2D1CE1969FCD200A0BAC2 /* LandscapeLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2D1CD1969FCD200A0BAC2 /* LandscapeLeftViewController.m */; };
 		F3CFB492193503A8000A8CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB491193503A8000A8CB3 /* Foundation.framework */; };
 		F3CFB494193503A8000A8CB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB493193503A8000A8CB3 /* CoreGraphics.framework */; };
 		F3CFB496193503A8000A8CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB495193503A8000A8CB3 /* UIKit.framework */; };
 		F3CFB49C193503A8000A8CB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB49A193503A8000A8CB3 /* InfoPlist.strings */; };
 		F3CFB49E193503A8000A8CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB49D193503A8000A8CB3 /* main.m */; };
-		F3CFB4A2193503A8000A8CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4A1193503A8000A8CB3 /* AppDelegate.m */; };
-		F3CFB4A5193503A8000A8CB3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB4A3193503A8000A8CB3 /* Main_iPhone.storyboard */; };
-		F3CFB4A8193503A8000A8CB3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB4A6193503A8000A8CB3 /* Main_iPad.storyboard */; };
-		F3CFB4AB193503A8000A8CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4AA193503A8000A8CB3 /* ViewController.m */; };
+		F3CFB4A2193503A8000A8CB3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4A1193503A8000A8CB3 /* AppDelegate.mm */; };
 		F3CFB4AD193503A8000A8CB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB4AC193503A8000A8CB3 /* Images.xcassets */; };
 		F3CFB4B4193503A9000A8CB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB4B3193503A9000A8CB3 /* XCTest.framework */; };
 		F3CFB4B5193503A9000A8CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB491193503A8000A8CB3 /* Foundation.framework */; };
 		F3CFB4B6193503A9000A8CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB495193503A8000A8CB3 /* UIKit.framework */; };
 		F3CFB4BE193503A9000A8CB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB4BC193503A9000A8CB3 /* InfoPlist.strings */; };
 		F3CFB4C0193503A9000A8CB3 /* MicrowaveSocialiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4BF193503A9000A8CB3 /* MicrowaveSocialiteTests.m */; };
+		F3CFB4CB19350407000A8CB3 /* Cloud.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4CA19350407000A8CB3 /* Cloud.mm */; };
+		F3CFB4CD1935046E000A8CB3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CFB4CC1935046E000A8CB3 /* Social.framework */; };
+		F3CFB4D01935088F000A8CB3 /* DSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4CF1935088F000A8CB3 /* DSP.mm */; };
+		F3CFB4D319351547000A8CB3 /* MicrowaveViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4D219351547000A8CB3 /* MicrowaveViewController.mm */; };
+		F3CFB4D619351615000A8CB3 /* CollectBeepViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4D519351615000A8CB3 /* CollectBeepViewController.mm */; };
+		F3CFB4D919351743000A8CB3 /* Settings.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4D819351743000A8CB3 /* Settings.mm */; };
+		F3CFB4DC19352313000A8CB3 /* FoodManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3CFB4DB19352313000A8CB3 /* FoodManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +64,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F3CFB48E193503A8000A8CB3 /* MicrowaveSocialite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrowaveSocialite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E504D45984E4830A666EB24 /* libPods-MicrowaveSocialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MicrowaveSocialite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F2B190409B4A1B811FCF7B /* Pods-MicrowaveSocialite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrowaveSocialite.xcconfig"; path = "Pods/Pods-MicrowaveSocialite.xcconfig"; sourceTree = "<group>"; };
+		F310865D1949FB0D00A6F304 /* FFTView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = FFTView.h; sourceTree = "<group>"; };
+		F310865E1949FB0D00A6F304 /* FFTView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FFTView.mm; sourceTree = "<group>"; };
+		F31086611949FB0D00A6F304 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		F31086621949FB0D00A6F304 /* AudioController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioController.mm; sourceTree = "<group>"; };
+		F31086631949FB0D00A6F304 /* BufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferManager.h; sourceTree = "<group>"; };
+		F31086641949FB0D00A6F304 /* BufferManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BufferManager.cpp; sourceTree = "<group>"; };
+		F31086651949FB0D00A6F304 /* FFTHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = FFTHelper.h; sourceTree = "<group>"; };
+		F31086661949FB0D00A6F304 /* FFTHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTHelper.cpp; sourceTree = "<group>"; };
+		F31086671949FB0D00A6F304 /* DCRejectionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRejectionFilter.h; sourceTree = "<group>"; };
+		F31086681949FB0D00A6F304 /* DCRejectionFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DCRejectionFilter.cpp; sourceTree = "<group>"; };
+		F31086701949FB3C00A6F304 /* CABitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABitOperations.h; sourceTree = "<group>"; };
+		F31086711949FB3C00A6F304 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		F31086721949FB3C00A6F304 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		F31086731949FB3C00A6F304 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		F31086741949FB3C00A6F304 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		F31086751949FB3C00A6F304 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		F31086761949FB3C00A6F304 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		F31086771949FB3C00A6F304 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		F310867B1949FB9A00A6F304 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F310867D1949FBA200A6F304 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F310867F1949FBA800A6F304 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F31086811949FBAE00A6F304 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F3108683194BF5B800A6F304 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F3108685194BF5EC00A6F304 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3108687194C047400A6F304 /* TargetFrequencyDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetFrequencyDelegate.h; sourceTree = "<group>"; };
+		F3252C9E1959B5FA00E80859 /* FoodManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodManagerDelegate.h; sourceTree = "<group>"; };
+		F3466075195E6EE3009B03BC /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		F3466076195E6EE3009B03BC /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		F346607E195E789C009B03BC /* AlphaMicrowave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlphaMicrowave.png; sourceTree = "<group>"; };
+		F346607F195E789C009B03BC /* AlphaMicrowave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlphaMicrowave@2x.png"; sourceTree = "<group>"; };
+		F34660981965C13B009B03BC /* Launch~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch~ipad.png"; sourceTree = "<group>"; };
+		F34660991965C13B009B03BC /* Launch-586h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch-586h@2x.png"; sourceTree = "<group>"; };
+		F346609A1965C13B009B03BC /* Launch~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch~iphone.png"; sourceTree = "<group>"; };
+		F346609B1965C13B009B03BC /* Launch@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x~ipad.png"; sourceTree = "<group>"; };
+		F346609C1965C13B009B03BC /* Launch@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x~iphone.png"; sourceTree = "<group>"; };
+		F3A2D1CA1969F95D00A0BAC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F3A2D1CC1969FCD200A0BAC2 /* LandscapeLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeLeftViewController.h; sourceTree = "<group>"; };
+		F3A2D1CD1969FCD200A0BAC2 /* LandscapeLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeLeftViewController.m; sourceTree = "<group>"; };
+		F3CFB48E193503A8000A8CB3 /* microwavesocialite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microwavesocialite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CFB491193503A8000A8CB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3CFB493193503A8000A8CB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F3CFB495193503A8000A8CB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -44,17 +113,27 @@
 		F3CFB49D193503A8000A8CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3CFB49F193503A8000A8CB3 /* MicrowaveSocialite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicrowaveSocialite-Prefix.pch"; sourceTree = "<group>"; };
 		F3CFB4A0193503A8000A8CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F3CFB4A1193503A8000A8CB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F3CFB4A4193503A8000A8CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		F3CFB4A7193503A8000A8CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		F3CFB4A9193503A8000A8CB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F3CFB4AA193503A8000A8CB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3CFB4A1193503A8000A8CB3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		F3CFB4AC193503A8000A8CB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3CFB4B2193503A8000A8CB3 /* MicrowaveSocialiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrowaveSocialiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CFB4B3193503A9000A8CB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F3CFB4BB193503A9000A8CB3 /* MicrowaveSocialiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicrowaveSocialiteTests-Info.plist"; sourceTree = "<group>"; };
 		F3CFB4BD193503A9000A8CB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3CFB4BF193503A9000A8CB3 /* MicrowaveSocialiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrowaveSocialiteTests.m; sourceTree = "<group>"; };
+		F3CFB4C919350407000A8CB3 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		F3CFB4CA19350407000A8CB3 /* Cloud.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cloud.mm; sourceTree = "<group>"; };
+		F3CFB4CC1935046E000A8CB3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F3CFB4CE1935088F000A8CB3 /* DSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSP.h; sourceTree = "<group>"; };
+		F3CFB4CF1935088F000A8CB3 /* DSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DSP.mm; sourceTree = "<group>"; };
+		F3CFB4D119351547000A8CB3 /* MicrowaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrowaveViewController.h; sourceTree = "<group>"; };
+		F3CFB4D219351547000A8CB3 /* MicrowaveViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MicrowaveViewController.mm; sourceTree = "<group>"; };
+		F3CFB4D419351615000A8CB3 /* CollectBeepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectBeepViewController.h; sourceTree = "<group>"; };
+		F3CFB4D519351615000A8CB3 /* CollectBeepViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectBeepViewController.mm; sourceTree = "<group>"; };
+		F3CFB4D719351743000A8CB3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F3CFB4D819351743000A8CB3 /* Settings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Settings.mm; sourceTree = "<group>"; };
+		F3CFB4DA19352313000A8CB3 /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
+		F3CFB4DB19352313000A8CB3 /* FoodManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FoodManager.mm; sourceTree = "<group>"; };
+		F3CFB4DE19352536000A8CB3 /* MicrowaveOperationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrowaveOperationDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +141,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3108686194BF5EC00A6F304 /* QuartzCore.framework in Frameworks */,
+				F3108684194BF5B800A6F304 /* Accounts.framework in Frameworks */,
 				F3CFB494193503A8000A8CB3 /* CoreGraphics.framework in Frameworks */,
+				F31086821949FBAE00A6F304 /* Accelerate.framework in Frameworks */,
+				F31086801949FBA800A6F304 /* OpenGLES.framework in Frameworks */,
+				F310867E1949FBA200A6F304 /* AVFoundation.framework in Frameworks */,
+				F310867C1949FB9A00A6F304 /* AudioToolbox.framework in Frameworks */,
+				F3CFB4CD1935046E000A8CB3 /* Social.framework in Frameworks */,
 				F3CFB496193503A8000A8CB3 /* UIKit.framework in Frameworks */,
 				F3CFB492193503A8000A8CB3 /* Foundation.framework in Frameworks */,
+				80F544B82D62452780497B8E /* libPods-MicrowaveSocialite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,20 +168,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F310865C1949FAF700A6F304 /* FFTView */ = {
+			isa = PBXGroup;
+			children = (
+				F310865D1949FB0D00A6F304 /* FFTView.h */,
+				F310865E1949FB0D00A6F304 /* FFTView.mm */,
+				F31086611949FB0D00A6F304 /* AudioController.h */,
+				F31086621949FB0D00A6F304 /* AudioController.mm */,
+				F31086631949FB0D00A6F304 /* BufferManager.h */,
+				F31086641949FB0D00A6F304 /* BufferManager.cpp */,
+				F31086651949FB0D00A6F304 /* FFTHelper.h */,
+				F31086661949FB0D00A6F304 /* FFTHelper.cpp */,
+				F31086671949FB0D00A6F304 /* DCRejectionFilter.h */,
+				F31086681949FB0D00A6F304 /* DCRejectionFilter.cpp */,
+				F3108687194C047400A6F304 /* TargetFrequencyDelegate.h */,
+			);
+			name = FFTView;
+			sourceTree = "<group>";
+		};
+		F310866F1949FB2900A6F304 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F31086701949FB3C00A6F304 /* CABitOperations.h */,
+				F31086711949FB3C00A6F304 /* CADebugMacros.h */,
+				F31086721949FB3C00A6F304 /* CADebugMacros.cpp */,
+				F31086731949FB3C00A6F304 /* CAXException.h */,
+				F31086741949FB3C00A6F304 /* CAXException.cpp */,
+				F31086751949FB3C00A6F304 /* CAMath.h */,
+				F31086761949FB3C00A6F304 /* CAStreamBasicDescription.h */,
+				F31086771949FB3C00A6F304 /* CAStreamBasicDescription.cpp */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F34660971965C131009B03BC /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+				F34660981965C13B009B03BC /* Launch~ipad.png */,
+				F34660991965C13B009B03BC /* Launch-586h@2x.png */,
+				F346609A1965C13B009B03BC /* Launch~iphone.png */,
+				F346609B1965C13B009B03BC /* Launch@2x~ipad.png */,
+				F346609C1965C13B009B03BC /* Launch@2x~iphone.png */,
+			);
+			name = LaunchImages;
+			sourceTree = "<group>";
+		};
 		F3CFB485193503A8000A8CB3 = {
 			isa = PBXGroup;
 			children = (
+				F3A2D1CA1969F95D00A0BAC2 /* Default-568h@2x.png */,
 				F3CFB497193503A8000A8CB3 /* MicrowaveSocialite */,
 				F3CFB4B9193503A9000A8CB3 /* MicrowaveSocialiteTests */,
 				F3CFB490193503A8000A8CB3 /* Frameworks */,
 				F3CFB48F193503A8000A8CB3 /* Products */,
+				22F2B190409B4A1B811FCF7B /* Pods-MicrowaveSocialite.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		F3CFB48F193503A8000A8CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3CFB48E193503A8000A8CB3 /* MicrowaveSocialite.app */,
+				F3CFB48E193503A8000A8CB3 /* microwavesocialite.app */,
 				F3CFB4B2193503A8000A8CB3 /* MicrowaveSocialiteTests.xctest */,
 			);
 			name = Products;
@@ -103,10 +237,18 @@
 		F3CFB490193503A8000A8CB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3108685194BF5EC00A6F304 /* QuartzCore.framework */,
+				F3108683194BF5B800A6F304 /* Accounts.framework */,
+				F31086811949FBAE00A6F304 /* Accelerate.framework */,
+				F310867F1949FBA800A6F304 /* OpenGLES.framework */,
+				F310867D1949FBA200A6F304 /* AVFoundation.framework */,
+				F310867B1949FB9A00A6F304 /* AudioToolbox.framework */,
+				F3CFB4CC1935046E000A8CB3 /* Social.framework */,
 				F3CFB491193503A8000A8CB3 /* Foundation.framework */,
 				F3CFB493193503A8000A8CB3 /* CoreGraphics.framework */,
 				F3CFB495193503A8000A8CB3 /* UIKit.framework */,
 				F3CFB4B3193503A9000A8CB3 /* XCTest.framework */,
+				0E504D45984E4830A666EB24 /* libPods-MicrowaveSocialite.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,14 +256,33 @@
 		F3CFB497193503A8000A8CB3 /* MicrowaveSocialite */ = {
 			isa = PBXGroup;
 			children = (
+				F34660971965C131009B03BC /* LaunchImages */,
+				F346607E195E789C009B03BC /* AlphaMicrowave.png */,
+				F346607F195E789C009B03BC /* AlphaMicrowave@2x.png */,
+				F310866F1949FB2900A6F304 /* Other Sources */,
+				F310865C1949FAF700A6F304 /* FFTView */,
 				F3CFB4A0193503A8000A8CB3 /* AppDelegate.h */,
-				F3CFB4A1193503A8000A8CB3 /* AppDelegate.m */,
-				F3CFB4A3193503A8000A8CB3 /* Main_iPhone.storyboard */,
-				F3CFB4A6193503A8000A8CB3 /* Main_iPad.storyboard */,
-				F3CFB4A9193503A8000A8CB3 /* ViewController.h */,
-				F3CFB4AA193503A8000A8CB3 /* ViewController.m */,
+				F3CFB4A1193503A8000A8CB3 /* AppDelegate.mm */,
 				F3CFB4AC193503A8000A8CB3 /* Images.xcassets */,
 				F3CFB498193503A8000A8CB3 /* Supporting Files */,
+				F3CFB4C919350407000A8CB3 /* Cloud.h */,
+				F3CFB4CA19350407000A8CB3 /* Cloud.mm */,
+				F3CFB4CE1935088F000A8CB3 /* DSP.h */,
+				F3CFB4CF1935088F000A8CB3 /* DSP.mm */,
+				F3CFB4D119351547000A8CB3 /* MicrowaveViewController.h */,
+				F3CFB4D219351547000A8CB3 /* MicrowaveViewController.mm */,
+				F3CFB4D419351615000A8CB3 /* CollectBeepViewController.h */,
+				F3CFB4D519351615000A8CB3 /* CollectBeepViewController.mm */,
+				F3CFB4D719351743000A8CB3 /* Settings.h */,
+				F3CFB4D819351743000A8CB3 /* Settings.mm */,
+				F3CFB4DA19352313000A8CB3 /* FoodManager.h */,
+				F3CFB4DB19352313000A8CB3 /* FoodManager.mm */,
+				F3CFB4DE19352536000A8CB3 /* MicrowaveOperationDelegate.h */,
+				F3252C9E1959B5FA00E80859 /* FoodManagerDelegate.h */,
+				F3466075195E6EE3009B03BC /* SettingsTableViewController.h */,
+				F3466076195E6EE3009B03BC /* SettingsTableViewController.m */,
+				F3A2D1CC1969FCD200A0BAC2 /* LandscapeLeftViewController.h */,
+				F3A2D1CD1969FCD200A0BAC2 /* LandscapeLeftViewController.m */,
 			);
 			path = MicrowaveSocialite;
 			sourceTree = "<group>";
@@ -158,21 +319,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3CFB48D193503A8000A8CB3 /* MicrowaveSocialite */ = {
+		F3CFB48D193503A8000A8CB3 /* microwavesocialite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3CFB4C3193503A9000A8CB3 /* Build configuration list for PBXNativeTarget "MicrowaveSocialite" */;
+			buildConfigurationList = F3CFB4C3193503A9000A8CB3 /* Build configuration list for PBXNativeTarget "microwavesocialite" */;
 			buildPhases = (
+				B982762841ED4817BB1BDB9C /* Check Pods Manifest.lock */,
 				F3CFB48A193503A8000A8CB3 /* Sources */,
 				F3CFB48B193503A8000A8CB3 /* Frameworks */,
 				F3CFB48C193503A8000A8CB3 /* Resources */,
+				2736B6D470EF4DE5A58689F8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MicrowaveSocialite;
+			name = microwavesocialite;
 			productName = MicrowaveSocialite;
-			productReference = F3CFB48E193503A8000A8CB3 /* MicrowaveSocialite.app */;
+			productReference = F3CFB48E193503A8000A8CB3 /* microwavesocialite.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F3CFB4B1193503A8000A8CB3 /* MicrowaveSocialiteTests */ = {
@@ -220,7 +383,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3CFB48D193503A8000A8CB3 /* MicrowaveSocialite */,
+				F3CFB48D193503A8000A8CB3 /* microwavesocialite */,
 				F3CFB4B1193503A8000A8CB3 /* MicrowaveSocialiteTests */,
 			);
 		};
@@ -231,9 +394,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CFB4A8193503A8000A8CB3 /* Main_iPad.storyboard in Resources */,
+				F346609D1965C13B009B03BC /* Launch~ipad.png in Resources */,
+				F3466080195E789C009B03BC /* AlphaMicrowave.png in Resources */,
+				F346609E1965C13B009B03BC /* Launch-586h@2x.png in Resources */,
+				F3A2D1CB1969F95D00A0BAC2 /* Default-568h@2x.png in Resources */,
+				F34660A11965C13B009B03BC /* Launch@2x~iphone.png in Resources */,
+				F3466081195E789C009B03BC /* AlphaMicrowave@2x.png in Resources */,
+				F346609F1965C13B009B03BC /* Launch~iphone.png in Resources */,
 				F3CFB4AD193503A8000A8CB3 /* Images.xcassets in Resources */,
-				F3CFB4A5193503A8000A8CB3 /* Main_iPhone.storyboard in Resources */,
+				F34660A01965C13B009B03BC /* Launch@2x~ipad.png in Resources */,
 				F3CFB49C193503A8000A8CB3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +417,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2736B6D470EF4DE5A58689F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MicrowaveSocialite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B982762841ED4817BB1BDB9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3CFB48A193503A8000A8CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CFB4AB193503A8000A8CB3 /* ViewController.m in Sources */,
-				F3CFB4A2193503A8000A8CB3 /* AppDelegate.m in Sources */,
+				F3CFB4D319351547000A8CB3 /* MicrowaveViewController.mm in Sources */,
+				F310867A1949FB3C00A6F304 /* CAStreamBasicDescription.cpp in Sources */,
+				F3CFB4CB19350407000A8CB3 /* Cloud.mm in Sources */,
+				F310866D1949FB0D00A6F304 /* FFTHelper.cpp in Sources */,
+				F310866C1949FB0D00A6F304 /* BufferManager.cpp in Sources */,
+				F3A2D1CE1969FCD200A0BAC2 /* LandscapeLeftViewController.m in Sources */,
+				F3CFB4A2193503A8000A8CB3 /* AppDelegate.mm in Sources */,
+				F31086691949FB0D00A6F304 /* FFTView.mm in Sources */,
+				F310866B1949FB0D00A6F304 /* AudioController.mm in Sources */,
+				F310866E1949FB0D00A6F304 /* DCRejectionFilter.cpp in Sources */,
+				F3CFB4DC19352313000A8CB3 /* FoodManager.mm in Sources */,
 				F3CFB49E193503A8000A8CB3 /* main.m in Sources */,
+				F3CFB4D01935088F000A8CB3 /* DSP.mm in Sources */,
+				F31086791949FB3C00A6F304 /* CAXException.cpp in Sources */,
+				F3466077195E6EE3009B03BC /* SettingsTableViewController.m in Sources */,
+				F3CFB4D619351615000A8CB3 /* CollectBeepViewController.mm in Sources */,
+				F31086781949FB3C00A6F304 /* CADebugMacros.cpp in Sources */,
+				F3CFB4D919351743000A8CB3 /* Settings.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +489,7 @@
 /* Begin PBXTargetDependency section */
 		F3CFB4B8193503A9000A8CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3CFB48D193503A8000A8CB3 /* MicrowaveSocialite */;
+			target = F3CFB48D193503A8000A8CB3 /* microwavesocialite */;
 			targetProxy = F3CFB4B7193503A9000A8CB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -284,22 +501,6 @@
 				F3CFB49B193503A8000A8CB3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F3CFB4A3193503A8000A8CB3 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3CFB4A4193503A8000A8CB3 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		F3CFB4A6193503A8000A8CB3 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3CFB4A7193503A8000A8CB3 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		F3CFB4BC193503A9000A8CB3 /* InfoPlist.strings */ = {
@@ -317,8 +518,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -331,13 +532,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -356,8 +555,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -371,7 +570,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -387,12 +587,13 @@
 		};
 		F3CFB4C4193503A9000A8CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F2B190409B4A1B811FCF7B /* Pods-MicrowaveSocialite.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicrowaveSocialite/MicrowaveSocialite-Prefix.pch";
 				INFOPLIST_FILE = "MicrowaveSocialite/MicrowaveSocialite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,12 +601,13 @@
 		};
 		F3CFB4C5193503A9000A8CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F2B190409B4A1B811FCF7B /* Pods-MicrowaveSocialite.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicrowaveSocialite/MicrowaveSocialite-Prefix.pch";
 				INFOPLIST_FILE = "MicrowaveSocialite/MicrowaveSocialite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,13 +665,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3CFB4C3193503A9000A8CB3 /* Build configuration list for PBXNativeTarget "MicrowaveSocialite" */ = {
+		F3CFB4C3193503A9000A8CB3 /* Build configuration list for PBXNativeTarget "microwavesocialite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3CFB4C4193503A9000A8CB3 /* Debug */,
 				F3CFB4C5193503A9000A8CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CFB4C6193503A9000A8CB3 /* Build configuration list for PBXNativeTarget "MicrowaveSocialiteTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +681,7 @@
 				F3CFB4C8193503A9000A8CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
